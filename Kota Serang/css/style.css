@@ -1,0 +1,122 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	outline: none; border:none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+body{
+	background: #f9f9f9;
+}
+section{
+	min-height: 100vh;
+	padding: 0 7%;
+	padding-top: 9rem;
+}
+.heading{
+	font-size: 2rem;
+	color: #666;
+}
+header{
+	display: flex;
+	padding: 1rem;
+}
+header .logo{
+	font-size: 1.8rem;
+	color: black;
+	margin: 1.5rem;
+	margin-left: 8rem;
+}
+header .navbar{  
+
+}
+header .navbar ul{
+	margin-left: 60rem;
+}
+header .navbar ul li{
+	font-size: 1.3rem;
+	color: #666;
+	display: inline-block;
+	margin-left: 1rem;
+	padding: 1rem;
+}
+header .navbar ul li a{
+	color: #666;
+}
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+	color: red;
+}
+.beranda {
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	top: 0; left: 0;
+	padding: 2.5rem;
+}
+.beranda .image{
+	padding: 2rem;
+	padding-left: 9rem; 
+}
+.beranda .image img{
+	padding: 2rem;
+}
+.beranda .content{
+	font-size: 1.5rem;
+	padding: 2.5rem;
+}
+.beranda .content span{
+	font-size: 1.5rem;
+	display: flex;
+}
+.beranda .content h3{
+
+}
+.beranda .content p{
+	font-size: 19px
+}
+.vaksin{
+
+}
+
+.btn{
+	padding: 2px;
+	margin: 15px;
+	color: #f9f9f9;
+	background-color: #666;
+	border-radius: 8px;
+}
+.vaksin {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.vaksin .box-container{
+}
+.vaksin .box-container .box{
+}
+.vaksin .box-container .box img{
+
+}
+.vaksin .box-container .box h3{
+
+}
+.vaksin .box-container .box p{
+
+}
+.gejala {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.gejala .image{
+}
+.gejala .image img{	
+}
+.gejala .content{
+}
+.gejala .content ul{
+}
+.gejala .content ul .two{
+}

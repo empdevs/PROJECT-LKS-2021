@@ -1,0 +1,281 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: cursive;
+	background: #ededed;
+}
+.main{
+	width: 1900px;
+	margin: auto;
+	height: 800px;
+}
+.d-flex{
+	display: flex;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.justify-content-center{
+	justify-content: center;
+}
+.align-items-center{
+	align-items: center;
+}
+.judul{
+	background: #6600ff;
+	padding: 20px;
+}
+.text-white{
+	color: white;
+}
+.text-center{
+	text-align: center;
+}
+.img-rounded{
+	border-radius: 50%;
+}
+.bg-white{
+	background: #fff;
+}
+.header{
+	background: #6600ff;
+	margin-top:10px;
+	padding: 12px 7px;
+	font-size: 12px;
+}
+.text-decoration-none{
+	text-decoration: none;
+}
+.header .login-link{
+	margin-right: 5px;
+	padding: 7px;
+	background: #ffba00;
+}
+.header .registrasi-link{
+	margin-right: 5px;
+	padding: 7px 5px;
+	background: #ffba00;
+}
+.menu{
+	background: #b4ff00;
+	padding: 7px;
+}
+.menu ul li{
+	margin-right: 20px;
+}
+.konten{
+	margin:10px 0px;
+}
+.konten .banner{
+	width: 49%;
+	height: 100px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.konten .banner .gambar1{
+	background: #ff068d;
+	padding: 5px;
+}
+.konten .banner .gambar2{
+	background: #00e3b0;
+	padding: 5px;
+}
+.konten .banner .gambar3{
+	background: #00aeff;
+	padding: 5px;
+}
+.konten .banner .gambar4{
+	background: #ffea00;
+	padding: 5px;
+}
+.footer{
+	background: #6600ff;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+/*registrasi*/
+.registrasi{
+	height:800px;
+}
+.registrasi .container{
+	background:#ffba00;
+	width: 350px;
+	padding: 20px
+}
+/*end registrasi*/
+/*login*/
+/*registrasi*/
+.login{
+	height:800px;
+}
+.login .container{
+	background:#ffba00;
+	width: 350px;
+	padding: 20px
+}
+/*login*/
+.text-center{
+	text-align:center;
+}
+
+.form-control{
+	margin:5px 0px;
+}
+.registrasi form .form-control input[type="text"] {
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+.registrasi form .form-control input[type="number"] {
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+.login form .form-control input[type="number"] {
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+.pendaftaran form .form-control input[type="text"] {
+    width: 98%;
+    padding: 3px;
+}
+.pendaftaran form .form-control select{
+    width: 100%;
+    padding: 3px;
+}
+form .form-control input[type="number"] {
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+form .form-control input[type="text"] {
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+form .form-control input[type="password"] {
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+.button{
+	margin-top: 10px;
+}
+.btn{
+	border: none;
+	padding: 7px;
+	background: #6600ff;
+}
+.text-right{
+	text-align: right;
+}
+.konten .kiri{
+	width: 25%;
+	margin-right: 5px;
+}
+.konten .kanan{
+	width: 70%;
+}
+.username{
+	margin-right: 20px;
+}
+.logout{
+	padding: 0px 7px;
+	background:#ffba00;
+}
+.logout a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.kiri ul li{
+	padding: 10px 5px ;
+	background: #6600ff;
+}
+.kiri ul li:hover{
+	background: #ffba00;
+	transition: 0.3s;
+}
+.active{
+	background: #ffba00 !important;
+}
+a{
+	text-decoration: none;
+}
+.kanan {
+	background: #fff;
+	padding: 10px;
+}
+.info{
+	background: #b7fffc;
+	color: #00cbc4;
+	padding: 7px;
+	border-radius: 7px;
+	display: inline-block;
+	margin-bottom: 7px;
+}
+
+table tr td {
+	border: 1px #6600ff solid;
+    padding: 7px;
+
+}
+.judul-cek-pendaftaran{
+	margin-bottom: 5px;
+}
+.login-admin{
+	margin-left: auto;
+}
+.btn-hapus {
+	background: #ff3a3a !important;
+}
+.btn-ubah {
+	background: #2aff00;
+	margin-right: 3;
+}
+.btn-ubah a{
+	color: #fff;
+}
+.btn-hapus a{
+	color: #fff;
+}
+.btn-my-profile{
+	background: #00d8a3;
+	padding: 0px 7px;
+	margin-right: 5px;
+}
+.peta{
+	width: 48%;
+}
+.judul-menu{
+	padding: 7px;
+	margin-top: 5px;
+	background: #fff;
+}
+.hubungi_kami{
+	padding: 10px 0px;
+}
+.ubah{
+	padding: 7px;
+	background: #1eff00;
+	display: inline-block;
+}
+.hapus{
+	padding: 7px;
+	background: #ff0000;
+	display: inline-block;
+}
+.tambah a{
+	padding: 7px;
+	background: #0090ff;
+	margin: 10px 0px;
+	font-size: 12px;
+}
+.justify-content-between{
+	justify-content: space-between;;
+}
